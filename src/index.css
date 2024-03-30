@@ -20,6 +20,17 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+.big{
+  display:grid;
+  grid-template-columns:100px 100px 100px 100px;
+  grid-template-rows:100px 100px 100px 100px 100px;
+  background-color:red;
+}
+
+.big input{
+  grid-column-start:1;
+  grid-column-end:5;
+}
 
 h1 {
   font-size: 3.2em;
